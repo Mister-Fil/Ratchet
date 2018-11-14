@@ -34,7 +34,7 @@ class WebsocketShell extends Shell
             [
                 'help' => __('Starts and runs both the websocket service')
             ]
-        )->description(__('Ratchet Websocket service.'))->addOption(
+        )->setDescription(__('Ratchet Websocket service.'))->addOption(
             'verbose',
             [
                 'help' => 'Enable verbose output',
